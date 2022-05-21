@@ -5,11 +5,8 @@ template:
     fg: "#546666"
     primary: "#546666"
     heading_font: {google: "Fraunces"}
-home:
-  sidebar: FALSE
 navbar:
   structure:
-    left: [search]
     right: [github, linkedin, twitter, instagram, home]
   components:
     twitter:
@@ -32,4 +29,3 @@ navbar:
       icon: fa-globe
       href: https://nrennie.rbind.io/
       aria-label: Website
-
