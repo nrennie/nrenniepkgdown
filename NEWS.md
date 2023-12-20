@@ -1,3 +1,7 @@
+## nrenniepkgdown 0.0.3 2023_12_20
+
+* Update to correct social media links
+
 ## nrenniepkgdown 0.0.2 2022_05_21
 
 * Edit sidebar
