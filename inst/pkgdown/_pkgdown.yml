@@ -7,7 +7,7 @@ template:
     heading_font: {google: "Fraunces"}
 navbar:
   structure:
-    right: [github, linkedin, twitter, mastodon, home]
+    right: [github, linkedin, twitter, mastodon, bluesky, home]
   components:
     twitter:
       icon: fa-twitter
@@ -22,9 +22,13 @@ navbar:
       href: https://uk.linkedin.com/in/nicola-rennie
       aria-label: LinkedIn
     mastodon:
-      icon: fa-mastodon
+      icon: fab fa-mastodon
       href: https://fosstodon.org/@nrennie
       aria-label: Mastodon
+    bluesky:
+      icon: fa-cloud
+      href: https://bsky.app/profile/nrennie.bsky.social
+      aria-label: BlueSky
     home:
       icon: fa-globe
       href: https://nrennie.rbind.io/
