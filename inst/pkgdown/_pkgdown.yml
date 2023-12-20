@@ -7,7 +7,7 @@ template:
     heading_font: {google: "Fraunces"}
 navbar:
   structure:
-    right: [github, linkedin, twitter, instagram, home]
+    right: [github, linkedin, twitter, mastodon, home]
   components:
     twitter:
       icon: fa-twitter
@@ -19,12 +19,12 @@ navbar:
       aria-label: GitHub
     linkedin:
       icon: fa-linkedin
-      href: https://uk.linkedin.com/in/nicola-rennie-076511b3
+      href: https://uk.linkedin.com/in/nicola-rennie
       aria-label: LinkedIn
-    instagram:
-      icon: fa-instagram
-      href: https://www.instagram.com/nrennie_art/
-      aria-label: Instagram
+    mastodon:
+      icon: fa-mastodon
+      href: https://fosstodon.org/@nrennie
+      aria-label: Mastodon
     home:
       icon: fa-globe
       href: https://nrennie.rbind.io/
