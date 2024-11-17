@@ -1,18 +1,18 @@
 template:
   bootstrap: 5
   bslib:
-    bg: "#eaf2f2"
-    fg: "#546666"
-    primary: "#546666"
+    bg: "#F0F5F5"
+    fg: "#2F4F4F"
+    primary: "#2F4F4F"
     heading_font: {google: "Fraunces"}
 navbar:
   structure:
-    right: [github, linkedin, twitter, mastodon, bluesky, home]
+    right: [home, github, linkedin, mastodon, bluesky]
   components:
-    twitter:
-      icon: fa-twitter
-      href: https://twitter.com/nrennie35
-      aria-label: Twitter
+    home:
+      icon: fa-globe
+      href: https://nrennie.rbind.io/
+      aria-label: Website
     github:
       icon: fa-github
       href: https://github.com/nrennie
@@ -29,7 +29,3 @@ navbar:
       icon: fa-cloud
       href: https://bsky.app/profile/nrennie.bsky.social
       aria-label: BlueSky
-    home:
-      icon: fa-globe
-      href: https://nrennie.rbind.io/
-      aria-label: Website
