@@ -1,3 +1,7 @@
+## nrenniepkgdown 0.0.5 2026_06_27
+
+* Update to match new website theme
+
 ## nrenniepkgdown 0.0.4 2024_11_17
 
 * Update to correct social media links

@@ -1,16 +1,18 @@
 template:
   bootstrap: 5
   bslib:
-    bg: "#F0F5F5"
-    fg: "#2F4F4F"
-    primary: "#2F4F4F"
-    heading_font: {google: "Fraunces"}
+    bg: "#F2F4F8"
+    fg: "#151C28"
+    primary: "#7F055F"
+    code_bg: "#FFFFFF"
+    heading_font: {google: "Oswald"}
+    base_font: {google: "Nunito"}
 navbar:
   structure:
-    right: [home, github, linkedin, mastodon, bluesky]
+    right: [home, github, linkedin, bluesky, mastodon]
   components:
     home:
-      icon: fa-globe
+      icon: fa-house
       href: https://nrennie.rbind.io/
       aria-label: Website
     github:
@@ -21,11 +23,11 @@ navbar:
       icon: fa-linkedin
       href: https://uk.linkedin.com/in/nicola-rennie
       aria-label: LinkedIn
+    bluesky:
+      icon: fab fa-bluesky
+      href: https://bsky.app/profile/nrennie.bsky.social
+      aria-label: BlueSky
     mastodon:
       icon: fab fa-mastodon
       href: https://fosstodon.org/@nrennie
       aria-label: Mastodon
-    bluesky:
-      icon: fa-cloud
-      href: https://bsky.app/profile/nrennie.bsky.social
-      aria-label: BlueSky
