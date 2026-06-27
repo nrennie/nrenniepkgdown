@@ -4,7 +4,7 @@ template:
     bg: "#F2F4F8"
     fg: "#151C28"
     primary: "#7F055F"
-    code_bg: "#FFFFFF"
+    code-bg: "#FFFFFF"
     heading_font: {google: "Oswald"}
     base_font: {google: "Nunito"}
 navbar:
